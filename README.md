@@ -67,4 +67,4 @@ public class DemoSettings {
 
 ## 结论
 
-实际说明`-spring.profiles.active`是能覆盖配置文件中的配置的，所以开发人员可以直接clone下来开发，而生产环境中只需要在启动脚本加上`-spring.profiles.active=pro`即可。
+实际说明`--spring.profiles.active`是能覆盖配置文件中的配置的，所以开发人员可以直接clone下来开发，而生产环境中只需要在启动脚本加上`--spring.profiles.active=pro`即可。
